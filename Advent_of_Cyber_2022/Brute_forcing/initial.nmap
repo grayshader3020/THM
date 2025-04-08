@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Tue Apr  8 03:48:33 2025 as: nmap -sV -sS -T4 -oA Brute_forcing/initial 10.10.121.156
+Nmap scan report for 10.10.121.156
+Host is up (0.27s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Apr  8 03:48:39 2025 -- 1 IP address (1 host up) scanned in 5.41 seconds

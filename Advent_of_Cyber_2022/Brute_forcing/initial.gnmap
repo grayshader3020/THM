@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Tue Apr  8 03:48:33 2025 as: nmap -sV -sS -T4 -oA Brute_forcing/initial 10.10.121.156
+Host: 10.10.121.156 ()	Status: Up
+Host: 10.10.121.156 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)/	Ignored State: closed (999)
+# Nmap done at Tue Apr  8 03:48:39 2025 -- 1 IP address (1 host up) scanned in 5.41 seconds
