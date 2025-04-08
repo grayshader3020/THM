@@ -101,6 +101,48 @@ A showcase of how vulnerability research is used on ACKme's engagement
 ```
 	1554
 ```
+2. Who is the author of Exploit-DB?
+```
+ 	offsec
+```
 
+**An Example of Finding a Vulnerability**
 
+1. What type of vulnerability did we use to find the name and version of the application in this example?
+```
+	Version Disclosure
+```
 
+**Showcase: Exploiting Ackme's Application**
+
+Scope defined is : 240.228.189.136
+
+- Company details
+	
+```
+Companies Report
+Company Info
+Established: 2017
+Business Type: Corporation
+Purpose: IT Support Services
+Clients: 800+
+CEO
+Danny Phantom
+d.phantom@ackme.thm
+```
+nmap scan::
+```
+	PORT STATE SERVICE
+	22/tcp open ssh
+	80/tcp open http
+	443/tcp open https
+```
+Acme portal of Version 1.5.2
+
+1. Follow along with the showcase of exploiting ACKme's application to the end to retrieve a flag. What is this flag?
+```
+	THM{ACKME_ENGAGEMENT}
+
+```
+
+**Conclusion**

@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Tue Apr  8 03:32:30 2025 as: nmap -sV -sS -T4 -oA scanning/initial 10.10.153.11
+Host: 10.10.153.11 ()	Status: Up
+Host: 10.10.153.11 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.29 ((Ubuntu))/, 139/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: WORKGROUP)/, 445/open/tcp//netbios-ssn//Samba smbd 3.X - 4.X (workgroup: WORKGROUP)/	Ignored State: closed (996)
+# Nmap done at Tue Apr  8 03:32:49 2025 -- 1 IP address (1 host up) scanned in 19.12 seconds
