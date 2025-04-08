@@ -1,0 +1,12 @@
+# Nmap 7.94SVN scan initiated Thu Mar 13 13:54:32 2025 as: nmap -sV -sS -T4 -oA nmap/initial 10.10.249.254
+Nmap scan report for 10.10.249.254
+Host is up (0.19s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)
+80/tcp   open  http    Apache httpd 2.4.56 ((Debian))
+3306/tcp open  mysql   MariaDB (unauthorized)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Mar 13 13:54:43 2025 -- 1 IP address (1 host up) scanned in 10.19 seconds

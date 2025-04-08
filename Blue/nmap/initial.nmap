@@ -1,0 +1,18 @@
+# Nmap 7.94SVN scan initiated Sat Apr  5 01:48:04 2025 as: nmap -sV -sS -T4 -oA nmap/initial 10.10.12.163
+Nmap scan report for 10.10.12.163
+Host is up (0.33s latency).
+Not shown: 991 closed tcp ports (reset)
+PORT      STATE SERVICE      VERSION
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+3389/tcp  open  tcpwrapped
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  msrpc        Microsoft Windows RPC
+49159/tcp open  msrpc        Microsoft Windows RPC
+Service Info: Host: JON-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Apr  5 01:49:26 2025 -- 1 IP address (1 host up) scanned in 82.08 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Thu Mar 13 13:54:32 2025 as: nmap -sV -sS -T4 -oA nmap/initial 10.10.249.254
+Host: 10.10.249.254 ()	Status: Up
+Host: 10.10.249.254 ()	Ports: 22/open/tcp//ssh//OpenSSH 8.4p1 Debian 5+deb11u3 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.56 ((Debian))/, 3306/open/tcp//mysql//MariaDB (unauthorized)/	Ignored State: closed (997)
+# Nmap done at Thu Mar 13 13:54:43 2025 -- 1 IP address (1 host up) scanned in 10.19 seconds

@@ -1,0 +1,4 @@
+# Nmap 7.94SVN scan initiated Sat Apr  5 01:54:27 2025 as: nmap -sV -p 445 --script=smb-vuln-ms17-010.nse -oA nmap/vuln 10.10.12.163
+Host: 10.10.12.163 ()	Status: Up
+Host: 10.10.12.163 ()	Ports: 445/open/tcp//microsoft-ds//Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)/
+# Nmap done at Sat Apr  5 01:54:38 2025 -- 1 IP address (1 host up) scanned in 10.40 seconds
