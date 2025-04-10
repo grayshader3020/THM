@@ -2,6 +2,10 @@
 
 grayshader | 08 April
 
+
+creds ::
+    Username: ubuntu
+    Password: S@nta2022
 **Frame works**
 Security Frameworks 
 ```
@@ -167,15 +171,94 @@ password::S@nta2022
 
 vnc does not use username -f
 ``` 
- hydra -P /usr/share/wordlists/rockyou.txt vnc://10.10.121.156 -V -f -I
+ hydra -P /usr/share/wordlists/rockyou.txt vnc://10.10.89.209 -V -f -I
 ```
+[5900][vnc] host: 10.10.89.209   password: 1q2w3e4r
 
 1. Use Hydra to find the VNC password of the target with IP address MACHINE_IP. What is the password?
 ```
-	
+	1q2w3e4r	
 ```
-
+using remmina software.
 2. Using a VNC client on the AttackBox, connect to the target of IP address MACHINE_IP. What is the flag written on the target’s screen?
 ```
+	THM{I_SEE_YOUR_SCREEN}
+```
 
+**Email Analysis**
+tool::	
+https://emailrep.io/
+
+
+1. What is the email address of the sender?
+```
+	chief.elf@santaclaus.thm
+```
+2. What is the return address?
+```
+	murphy.evident@bandityeti.thm
+```
+3. On whose behalf was the email sent?
+```
+	 Chief Elf
+```
+4. What is the X-spam score?
+```
+	3
+```
+QW9DMjAyMl9FbWFpbF9BbmFseXNpcw==
+
+5. What is hidden in the value of the Message-ID field?
+```
+	AoC2022_Email_Analysis
+```
+6. Visit the email reputation check website provided in the task.
+What is the reputation result of the sender's email address?
+```
+	RISKY
+```
+7. Check the attachments.
+What is the filename of the attachment?
+```
+	Division_of_labour-Load_share_plan.doc
+
+```
+sha256sum documentname
+
+8. What is the hash value of the attachment?
+```
+	0827bb9a2e7c0628b82256759f0f888ca1abd6a2d903acdb8e44aca6a1a03467
+```
+9. Visit the Virus Total website and use the hash value to search.
+Navigate to the behaviour section.
+What is the second tactic marked in the Mitre ATT&CK section?
+```
+	Defense Evasion
+```
+https://labs.inquest.net/
+
+10. Visit the InQuest website and use the hash value to search.
+What is the subcategory of the file?
+```
+	macro_hunter
+```
+
+**CyberChef**
+
+1. What is the version of CyberChef found in the attached VM?
+```
+	9.49.0
+```
+2. How many recipes were used to extract URLs from the malicious doc?
+```
+ 10
+```
+3. We found a URL that was downloading a suspicious file; what is the name of that malware?
+```
+ https://cdn.bandityeti.thm/files/mysterygift.exe
+
+```
+4. What is the last defanged URL of the bandityeti domain found in the last step?
+```
+hxxps[://]cdn[.]bandityeti[.]THM/files/index/
 ```
